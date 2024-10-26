@@ -1,0 +1,89 @@
+*{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+/*----------Heading start------------------*/
+.savingClass {
+    display: flex;
+    justify-content: center;
+
+}
+/*-----------Heading End ----------*/
+/*--------Month starting--------------*/
+.monthClass {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: rgb(55, 54, 54);
+    height: 35px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.monthJan,.monthFeb,.monthMar,.monthApr,.monthMay,.monthJun,.monthJul,.monthAug,.monthSep,.monthOct,.monthNov,.monthDec {
+    background-color: rgb(55, 54, 54);
+    color: whitesmoke;
+}
+
+/*---------Month Ending------*/
+
+.moneyDebited {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.moneyDebited_text {
+    margin-right: 30px;
+}
+
+
+.addDebit {
+    color: whitesmoke;
+    background-color: rgb(55, 54, 54);
+}
+
+.moneySpend {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.addExpenseClass {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.add {
+    background-color: rgb(55, 54, 54);
+}
+
+/*Container*/
+
+
+.container  {
+    display: grid;
+    place-items: center
+}
+ 
+
+.moneyLeft {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.moneyExtra {
+    font-size: 25px;
+}
+
+option {
+    font-size: 45px;
+}
